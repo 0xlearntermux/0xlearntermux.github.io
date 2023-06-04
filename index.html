@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BDhaCkers009</title>
+    <style>
+        /* CSS Styling */
+        body {
+            background-color: #000;
+            color: #0F0;
+            font-family: "Courier New", monospace;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #111;
+            color: #0F0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+        .content {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 2px solid #0F0;
+            background-color: #000;
+            animation: glitch 1s infinite;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #111;
+            color: #0F0;
+            padding: 20px;
+            text-align: center;
+        }
+        @keyframes glitch {
+            0% {
+                transform: translate(0);
+            }
+            25% {
+                transform: translate(-2px, 2px);
+            }
+            50% {
+                transform: translate(-2px, -2px);
+            }
+            75% {
+                transform: translate(2px, 2px);
+            }
+            100% {
+                transform: translate(2px, -2px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to BDhaCkers009</h1>
+    </header>
+
+    <div class="content">
+        <h2>About Us</h2>
+        <p>Welcome to <span class="glitch-effect">BDhaCkers009</span>, your ultimate source for mind-blowing hacks and cutting-edge technology. Our elite team of hackers and tech enthusiasts is committed to pushing the boundaries of what's possible in the digital realm.</p>
+        <p>Whether you seek cybersecurity solutions, software development tips, or just want to explore the depths of the dark web, we've got you covered. Prepare to dive into the world of code, cryptography, and everything in between.</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 BDhaCkers009. All rights reserved.</p>
+    </footer>
+
+    <!-- JavaScript code -->
+    <script>
+        // Display a welcome message
+        console.log("Welcome to BDhaCkers009!");
+
+        // Glitch effect animation
+        const glitchText = document.querySelector('.glitch-effect');
+        setInterval(() => {
+            glitchText.classList.toggle('glitch');
+        }, 1000);
+    </script>
+
+    <?php
+        // PHP code
+        $message = "Hello from PHP!";
+        echo "<script>console.log('$message');</script>";
+    ?>
+</body>
+</html>
